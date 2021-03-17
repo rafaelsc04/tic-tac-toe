@@ -1,6 +1,4 @@
-package com.company;
-
-import java.io.IOException;
+package com.rafael;
 
 public class Main {
 
@@ -8,6 +6,6 @@ public class Main {
         Game game = new Game();
         game.init();
         game.gameLoop();
-
+        System.out.println("\n » Thanks for playing! See you...\n");
     }
 }
